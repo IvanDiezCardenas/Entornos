@@ -5,5 +5,7 @@ private int numero;
 public DobleNumero(int numero) {
 	this.numero = numero;
 }
-
+public static void main () {
+	
+}
 }
