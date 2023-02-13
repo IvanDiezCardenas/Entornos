@@ -37,7 +37,7 @@ int escapicua;
 int esprimo;
 int potencia;
 int digitos;
-public Numero(int escapicua,int esprimo,int potencia,int digitos) {
+public Numero() {
 	this.digitos = digitos;
 	this.escapicua = escapicua;
 	this.esprimo = esprimo;
