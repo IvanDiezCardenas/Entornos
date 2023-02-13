@@ -8,7 +8,7 @@ private int longitud;
 private String contraseña;
 public Password() {
 	this.longitud = longitud;
-	this.contraseña = contraseña;
+	this.contraseña = generarContraseña();
 }
 public int longitud() {
 	if (longitud>8) {
@@ -20,17 +20,21 @@ public int longitud() {
 	return longitud;
 }
 public String generarContraseña() {
-String letraMinus = "a,b,c,d,e,f,g,h,i,j,k,l,m,n,ñ,o,p,q,r,s,t,u,v,w,x,y,z";
-String letraMayus = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,Ñ,O,P,Q,R,S,T,U,V,W,X,Y,Z";
-if (letraMinus==letraMinus) {
-	System.out.println("a,b,c,d,e,f,g,h,i,j,k,l,m,n,ñ,o,p,q,r,s,t,u,v,w,x,y,z");
+String Password = "";
+for (int i = 0; i < longitud; i++) {
+	int eleccion = (int) ((Math.random() * 3 + 1));
+	if (eleccion==1) {
+		char minusculas = (char) (int) ((Math.random() * 123-97)+97);
+	Password += minusculas;
+	}
+	else {
+		if (eleccion==2) {
+			char minusculas = (char) (int) ((Math.random() * 123-97)+97);
+			Password += minusculas;
+		}
+	}
 }
-else if (letraMayus==letraMayus) {
-	System.out.println("A,B,C,D,E,F,G,H,I,J,K,L,M,N,Ñ,O,P,Q,R,S,T,U,V,W,X,Y,Z");
-}
-Math.random();
-return letraMayus;
-
+return "";
 }
 public int getLongitud() {
 	return longitud;
