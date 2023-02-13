@@ -58,4 +58,11 @@ public class Coche {
 		this.potencia = potencia;
 	}
 
+	@Override
+	public String toString() {
+		return "Coche [puertas=" + puertas + ", ruedas=" + ruedas + ", automatico=" + automatico + ", color=" + color
+				+ ", potencia=" + potencia + "]";
+	}
+	
+
 }
