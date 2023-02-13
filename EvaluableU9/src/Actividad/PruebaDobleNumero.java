@@ -1,6 +1,6 @@
 package Actividad;
 
-public class PreubaDobleNumero {
+public class PruebaDobleNumero {
 
 	public static void main(String[] args) {
 DobleNumero x = new DobleNumero(1);
