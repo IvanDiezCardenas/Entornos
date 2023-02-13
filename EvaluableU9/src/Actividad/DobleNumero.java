@@ -11,8 +11,8 @@ public class DobleNumero {
 		
 	}
 int getValue() {
-	int resultado = numero * 2;
-	return numero;
+       numero = numero * 2;
+       return numero;
 	
 }
 }
