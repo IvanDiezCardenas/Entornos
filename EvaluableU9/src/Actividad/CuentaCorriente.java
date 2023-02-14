@@ -5,12 +5,11 @@ private String saldo;
 public CuentaCorriente(){
 	this.saldo = "0";
 }
-int getSaldo() {
-	return 0;
-	
+
+public int getSaldo() {
 	
 }
-void imposicion(int i) {
+void imposicion(int x) {
 	
 }
 void reIntegro(int x) {

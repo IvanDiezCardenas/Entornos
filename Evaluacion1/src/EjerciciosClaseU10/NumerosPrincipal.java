@@ -6,7 +6,7 @@ public class NumerosPrincipal {
 
 	public static void main(String[] args) {
 Numero miNumero = new Numero();
-miNumero
+
 	}
 
 }
