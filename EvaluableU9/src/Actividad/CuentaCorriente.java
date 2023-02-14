@@ -1,9 +1,19 @@
 package Actividad;
 
 public class CuentaCorriente {
-
-	public static void main(String[] args) {
-
-	}
-
+private String saldo;
+public CuentaCorriente(){
+	this.saldo = "0";
+}
+int getSaldo() {
+	return 0;
+	
+	
+}
+void imposicion(int i) {
+	
+}
+void reIntegro(int x) {
+	
+}
 }
