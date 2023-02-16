@@ -2,16 +2,16 @@ package EjerciciosClaseU10;
 
 public class Electrodomestico {
 	private double precioBase;
-	private char color;
+	private Color color;
 	private char consumoEnergetico;
 	private int peso;
-	private final char colorPorDefecto;
+	private final Color colorPorDefecto = Color.BLANCO;
 	private final char consumoEnergetico1;
 	private final double precioBase1;
 	private final int peso1;
 }
 
-	public Electrodomestico(double precioBase, char color, char consumoEnergetico, char letras, int peso) {
+	public Electrodomestico(double precioBase, Color color, char consumoEnergetico, char letras, int peso) {
 		this.precioBase = precioBase;
 		this.color = color;
 		this.consumoEnergetico = consumoEnergetico;
@@ -35,7 +35,7 @@ public class Electrodomestico {
 		return precioBase;
 	}
 
-	public char getColor() {
+	public Color getColor(Color color) {
 		return color;
 	}
 
@@ -47,7 +47,7 @@ public class Electrodomestico {
 		return peso;
 	}
 
-	public char getColorPorDefecto() {
+	public Color getColorPorDefecto() {
 		return colorPorDefecto;
 	}
 
