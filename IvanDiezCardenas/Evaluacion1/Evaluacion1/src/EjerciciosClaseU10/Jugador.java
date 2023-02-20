@@ -27,9 +27,9 @@ public Posiciones getPosiciones() {
 public void setPosiciones(Posiciones posiciones) {
 	this.posiciones = posiciones;
 }
-@Override
-public String toString() {
-	return "Jugador [nombre=" + nombre + ", numero=" + numero + ", posiciones=" + posiciones.name() + "y pertenece a equipo:" +  ];
+//@Override
+//public String toString() {
+	//return "Jugador [nombre=" + nombre + ", numero=" + numero + ", posiciones=" + posiciones.name() + "y pertenece a equipo:" ];
 }
 
-}
+//}

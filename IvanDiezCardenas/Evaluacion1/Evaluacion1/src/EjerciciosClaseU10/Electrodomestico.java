@@ -1,4 +1,4 @@
-package EjerciciosClaseU10;
+/*package EjerciciosClaseU10;
 
 public class Electrodomestico {
 	private double precioBase;
@@ -61,4 +61,4 @@ public class Electrodomestico {
 
 public int getPeso1() {
 	return peso1;
-}
+}*/

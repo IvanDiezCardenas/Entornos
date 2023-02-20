@@ -1,4 +1,4 @@
-package EjerciciosClaseU10;
+/*package EjerciciosClaseU10;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -17,4 +17,4 @@ for (int i = 0; i <10; i++) {
 
 	}
 
-}
+}*/

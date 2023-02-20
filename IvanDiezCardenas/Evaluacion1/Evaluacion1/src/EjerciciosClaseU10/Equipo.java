@@ -1,9 +1,9 @@
 package EjerciciosClaseU10;
 
-public enum Equipo {
-private String nombreClub;
+//public enum Equipo {
+/*private String nombreClub;
 private String posicionChampions;
-MADRID("Real Madrid",1),
+//MADRID("Real Madrid",1),
 BARÇA("FC BARCELONA",30),
 ATLETI("Atletico de Madrid",32),
 PSG("Paris Saint Germain",16);
@@ -23,4 +23,4 @@ public String getPosicionChampions() {
 }
 public void setPosicionChampions(String posicionChampions) {
 	this.posicionChampions = posicionChampions;
-}
+}*/
