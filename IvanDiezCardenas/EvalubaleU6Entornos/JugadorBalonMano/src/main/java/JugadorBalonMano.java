@@ -9,7 +9,7 @@ public class JugadorBalonMano {
 	public JugadorBalonMano(String nombre, int dorsal) {
 		this.nombre = nombre;
 		this.dorsal = dorsal;
-
+		
 	}
 
 	public void setAnotacion(int anotacion) {
